@@ -38,3 +38,14 @@ function startGame() {
 // Pointer to the "Start Game" button
 var startBtn = document.getElementById("start-btn");
 startBtn.addEventListener("click", startGame);
+
+// Inputs guesses to change underscores to letters
+function letters() {
+    document.addEventListener("keypress", function(event){
+        var keyPressed = event.key
+        
+    })
+}
+
+
+
